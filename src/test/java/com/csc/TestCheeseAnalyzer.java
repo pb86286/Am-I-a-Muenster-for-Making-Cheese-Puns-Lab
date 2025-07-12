@@ -1,5 +1,8 @@
 package com.csc;
 
 public class TestCheeseAnalyzer {
-  // You can put test code here
+    public static void main(String[] args) {
+        String inputFile = "cheese.csv"; // ensure your CSV is named this or change accordingly
+        CheeseAnalyzer.analyzeCheeseData(inputFile);
+    }
 }
